@@ -551,7 +551,7 @@ enum
 				[model setPosY:[model posY]+increment];
 				return YES;
 			case 0x74: // page up
-			case 0x1e: // cmd-[
+			case 0x1e: // cmd-]
 				[model setPosZ:[model posZ]+increment];
 				return YES;
 			case 0x79: // page down
